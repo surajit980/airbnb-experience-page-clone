@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+.navbar{
+    height: 80px;
+    width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    padding: 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+/* left side navbar style */
+.nav-left{
+    display: flex;
+    align-items: center;
+    color: #FF385C;
+}
+.brand-logo{
+    width: 30px;
+}
+.brand-name{
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 5px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+
+/* right side navbar style */
+.nav-btn{
+    margin-left: 5px;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+.link-btn{
+    padding: 15px;
+}
+.link-btn:hover{
+    background-color: #F7F7F7;
+}
+.profile-btn{
+    padding: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 20px;
+}
+.fa-user{
+    margin-left: 15px;
+    background-color: #717171;
+    color: white;
+    font-size: 18px;
+    padding: 9px 9px 7px 9px;
+    border-radius: 50%;
+}
+.profile-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/* collapse menu bar style */
+.menu-bar{
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 260px;
+    width: 240px;
+    bottom: -250px;
+    right: 100px;
+    border-radius: 20px;
+    background-color: white;
+}
+.top-menu-bar{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: inherit;
+    border: none;
+    display: block;
+    padding-left: 10px;
+    text-align: start;    
+}
+.menu:hover{
+    background-color: #F7F7F7;
+}

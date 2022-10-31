@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    padding-top: 80px;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+a:hover{
+    color: unset;
+}

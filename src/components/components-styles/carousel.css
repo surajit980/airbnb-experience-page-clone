@@ -1,0 +1,21 @@
+.carousel-heading{
+    margin: 20px 0px;
+}
+.carousel-caption{
+    top: 40%;
+}
+.carousel-img{
+    height: 450px;
+    border-radius: 20px;
+    filter: brightness(0.5);
+}
+.show-all-btn{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.show-all-btn:hover{
+    color: black;
+    background-color: #EBEBEB;
+}

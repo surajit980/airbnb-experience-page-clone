@@ -1,0 +1,17 @@
+.slider-img{
+    width: 95%;
+    height: 250px;
+    border-radius: 20px;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+.slider-img:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.slick-prev:before, .slick-next:before{
+    color: brown !important;
+}
+.slider-caption-p{
+    text-transform: capitalize;
+}
